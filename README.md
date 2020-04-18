@@ -28,12 +28,13 @@ NODE_ENV=test npm test
 
 ## Run server
 
-- Crear archivo `.env` con la config necesaria para un entorno que NO es de test (copiar de `.env.test` y modificar)
-- Crear db especificada en `.env` (Just the first time)
-- Correr el server
+- create `.env` file (copy `.env.test` config and modify)
+- Create db on `.env` (Just the first time)
+- run server
 
 ```bash
 node server.js
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
